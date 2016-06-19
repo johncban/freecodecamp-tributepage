@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ----------------------------------------------------------- */
+/* Accordion Header -- START */
+ul.a {
+	list-style-type: square;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bolder;
+}
+
+.par {
+	font-family:"Times New Roman", Times, serif;
+	padding-left:40px;
+}
+/*-------------------- END */
+
+
+/* Header One Title -- START */
+.title {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #534A39;
+	font-size: 80px;
+	padding-top: 40px;
+}
+
+.description {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size:40px;
+	color: #89795D;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.timeLine {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size:40px;
+	color: #89795D;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration:underline;
+}
+/*-------------------- END */
+
+
+/* Header-Body -- START */
+.image {
+	text-align: center;
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+
+.main-background-color {
+	background-color:#FFFFEC;
+}
+/*-------------------- END */
+
+
+/* Content Image -- START */
+.contentImage {
+	text-align: center;
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	max-height:400px;
+	max-width:400x;
+	padding-left:40px;
+}
+
+.citeImage {
+	padding-left:40px;
+}
+/*--------------------- END */
+
+
+/* Index Modal -- START */
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFEC;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #704214;
+    opacity:.80;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+/*-------------------- END */
+
+
+/* Citation Footer -- START */
+.cit {
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+	font-style:italic;
+	font-size:14px;
+}
+/*-------------------- END */
