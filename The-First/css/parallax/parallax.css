@@ -1,0 +1,141 @@
+.para1 {
+    /* The image used */
+    background-image: url(/images/oneworld.jpg);
+
+    /* Full height */
+    height: 80px;
+    
+    position: relative;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* DEFAULT VALUE: cover */
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+    opacity: 0.80;
+}
+
+
+.para2 {
+    
+    background-image: url('/images/jc.jpg');
+
+    height: 80px;
+    
+    position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* DEFAULT VALUE: cover */
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+    opacity: 0.80;
+}
+
+
+
+.incontent {
+    height: auto;
+    
+    font-size: 20px;
+    opacity: 0.90;
+    /* color: #000; */
+    margin: 15px 15px 15px 15px;
+    
+}
+
+
+@media screen and (min-width: 20em) {
+    .para1 {
+        /* The image used */
+        background-image: url(/images/oneworld.jpg);
+
+        /* Full height */
+        height: 500px;
+        width: auto;
+
+        position: relative;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* DEFAULT VALUE: cover */
+
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+
+        opacity: 0.88;
+   }
+
+
+    .para2 {
+
+        background-image: url('/images/jc.jpg');
+
+        height: 500px;
+        width: auto;
+
+        position: relative;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* DEFAULT VALUE: cover */
+
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+
+        opacity: 0.88;
+    }
+    
+    .placeholder1 {
+        
+        background-image:url(http://www.alanbarnesfineart.com/wp-content/uploads/2015/04/placeholder-Copy-4-1024x769.png);
+        
+        height: 450px;
+        width: auto;
+
+        position: relative;
+
+        /* background-attachment: fixed; */
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover; /* DEFAULT VALUE: cover */
+
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+
+        opacity: 0.88;
+    }
+    
+    .placeholder2 {
+        height: 500px;
+        width: auto;
+
+        position: relative;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* DEFAULT VALUE: cover */
+
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+
+        opacity: 0.88;
+    }
+}
