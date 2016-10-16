@@ -1,6 +1,6 @@
 .para1 {
     /* The image used */
-    background-image: url(https://goo.gl/photos/PVBCYLifmcoxfDra6);
+    background-image: url('https://goo.gl/photos/PVBCYLifmcoxfDra6');
 
     /* Full height */
     height: 80px;
@@ -57,7 +57,7 @@
 @media screen and (min-width: 20em) {
     .para1 {
         /* The image used */
-        background-image: url(https://goo.gl/photos/mMXrYE9BpZutq8jL6);
+        background-image: url('https://goo.gl/photos/mMXrYE9BpZutq8jL6');
 
         /* Full height */
         height: 500px;
@@ -102,7 +102,7 @@
     
     .placeholder1 {
         
-        background-image:url(http://www.alanbarnesfineart.com/wp-content/uploads/2015/04/placeholder-Copy-4-1024x769.png);
+        background-image:url('http://www.alanbarnesfineart.com/wp-content/uploads/2015/04/placeholder-Copy-4-1024x769.png');
         
         height: 450px;
         width: auto;
