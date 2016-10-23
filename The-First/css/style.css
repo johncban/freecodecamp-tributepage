@@ -108,6 +108,6 @@ source {
     right: 100px;
     display: none;
     text-indent: -9999px;
-    background: url('https://raw.github.com/johncban/freecodecamp/blob/master/The-First/images/notes-up.png') no-repeat;
+    background: url('https://raw.github.com/johncban/freecodecamp/raw/master/The-First/images/notes-up.png') no-repeat;
     /* background-color: #000; */
 }
