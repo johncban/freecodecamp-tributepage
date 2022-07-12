@@ -1,4 +1,4 @@
-![image.png](https://boostnote.io/api/teams/nvYisPS0M/files/da036e411a7104aa9fd1ee212f76eb73f0bd2a87d75f5fae72f674a09c30eff8-image.png)
+![image.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/FreeCodeCamp_logo.png/800px-FreeCodeCamp_logo.png)
 <br/>
 <br/>
 # Responsive Web Design (Legacy)
