@@ -3,10 +3,7 @@
 </p>
 
 # Responsive Web Design (Legacy)
-<br/>
-<br/>
 First Project for freeCodeCamp that teaches students (or me) about HTML elements and content explanation.
-<br/>
 <br/>
 
 ## Tribute Page
